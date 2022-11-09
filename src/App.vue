@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="backgroundImg"/>
-           <img src="@/assets/uruchoose.png"/>
+          <img src="@/assets/uruchoose2.png"/>
     <div class="playingField">
       <div class="flex-row buttons" :key="choice.id" v-for="choice in playerChoices">
     <button class="flex-item" :disabled="playerChoice" :key="choice.id" @click="selectChoice(choice)">
